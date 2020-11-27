@@ -57,7 +57,7 @@ public class BeanDefinition {
         private Object arg;
 
         /**
-         * 内部静态类，可以访问私有构造函数？
+         * 下面使用构建者模式，来构建ConstructorArg类
          */
         private ConstructorArg(Builder builder) {
             this.isRef = builder.getIsRef();
